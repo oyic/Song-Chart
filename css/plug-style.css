@@ -1,0 +1,33 @@
+body{
+	background-color:transparent;
+}
+.dimmer{
+	opacity: .2 ;
+}
+.dimmer:hover{
+	opacity: 1 ;
+	cursor: pointer;
+}
+.dimmer:focus,.dimmer:active{
+	outline: none;
+}
+.dj_votes{
+    width:50%;
+    text-align:center;
+    float:left;
+    margin-top:-3px;
+    background-color:transparent !important;
+    border:none;font-size:15px;
+}
+.modal{
+    width: auto;
+}
+#change-me {
+    margin-top: 10px;
+    font-size: 15px;
+    /* float: right; */
+    padding: 5px;
+    margin: 10px auto;
+    display: block;
+    width: 100%;
+}
